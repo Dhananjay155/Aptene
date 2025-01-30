@@ -17,15 +17,20 @@ This project is a *Counter App* built using *React, RxJS, and Material UI. It fo
 - *Styling:* CSS, Material UI
 
 ## Folder Structure
-
-counter-app/
-│── src/
-│   ├── intent/          # User actions (CounterIntent.js)
-│   ├── model/           # RxJS observables and state logic (CounterModel.js)
-│   ├── view/            # UI components (CounterView.jsx, CounterView.css)
-│   ├── App.jsx          # Main application logic
-│── package.json         # Dependencies and scripts
-│── README.md            # Documentation
+```
+src/
+│── intent/
+│   ├── CounterIntent.jsx  // User actions (button clicks, toggles)
+│
+│── model/
+│   ├── CounterModel.jsx  // Handles counter logic
+│
+│── view/
+│   ├── CounterView.jsx  // UI and event handling
+│   ├── CounterView.css  // UI styling
+│
+│── App.jsx  // Main entry point
+```
 
 
 ## Installation & Setup
@@ -35,8 +40,7 @@ Ensure you have *Node.js* installed.
 ### Steps to Run the Project
 1. Clone the repository:
    sh
-   git clone https://github.com/your-repo/counter-app-mvvm.git
-   cd counter-app-mvvm
+   git clone https://github.com/Dhananjay155/Aptene.git
    
 2. Install dependencies:
    sh
@@ -58,13 +62,9 @@ Ensure you have *Node.js* installed.
 - Toggle *Auto Increment* to start automatic incrementing every 1.1 seconds.
 
 ## Screenshots
-### Desktop View
-![image](https://github.com/user-attachments/assets/739844e2-06a6-4bd6-9561-5c85e921fb15)
 
+![image](https://github.com/Dhananjay155/Aptene/blob/main/src/assets/Screenshot%202025-01-30%20155604.png)
 
-
-### Mobile View
-![image](https://github.com/user-attachments/assets/f487c9f1-dcce-4a8c-b19c-2c00ee7c393d)
 
 
 ## Future Enhancements
