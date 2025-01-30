@@ -1,0 +1,113 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .counter-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 300px;
+  }
+  
+  .counter-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+  }
+  
+  .counter-display {
+    font-size: 64px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 1rem 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .counter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .counter-button {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+  }
+  
+  .counter-button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+  
+  .counter-button:active {
+    transform: translateY(1px);
+  }
+  
+  .increment-button {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .reset-button {
+    background-color: #ef4444;
+    color: white;
+    padding: 8px 24px;
+    font-size: 18px;
+    margin: 1rem 0;
+  }
+  
+  .auto-increment-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+  
+  .toggle-switch {
+    width: 48px;
+    height: 24px;
+    background-color: #d1d5db;
+    border-radius: 9999px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-switch.active {
+    background-color: #3b82f6;
+  }
+  
+  .toggle-handle {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .toggle-handle.active {
+    transform: translateX(24px);
+  }
+  
+  .toggle-label {
+    color: #4b5563;
+    font-size: 0.95rem;
+  }
